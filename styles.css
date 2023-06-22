@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+  }
+  
+  .header {
+    background-image: url('Atencion-en-Psicologia.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px; /* Ajusta el espaciado interno según tus necesidades */
+    color: #ffffff; /* Color del texto en el encabezado */
+  }
+  
+.header h1 {
+    font-size: 36px; /* Tamaño de fuente para el título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
+    -webkit-text-stroke-width: 1px; /* Ancho del borde */
+    -webkit-text-stroke-color: black; /* Color del borde */
+}
+.header h2 {
+    font-size: 30px; /* Tamaño de fuente para el título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombreado del texto */
+    -webkit-text-stroke-width: 1px; /* Ancho del borde */
+    -webkit-text-stroke-color: black; /* Color del borde */
+      
+  }
+  
+  .skills {
+    background-image: url('photo-1552152370-fb05b25ff17d.jpeg');
+    background-size: cover;
+    background-position: center;
+   
+  }
+  
+  .projects {
+    background-image: url('desktop-wallpaper-best-3-aesthetic-on-hip-aesthetic-blue-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+      
+  
+  
+  footer {
+    background: #a79ca7;
+  }
+  
+  .small-photo {
+    width: 300px; /* Ajusta el ancho de la foto */
+    height: 300px; /* Ajusta la altura de la foto */
+    border-radius: 50%; /* Aplica un borde redondeado para crear la forma ovalada */
+    object-fit: cover; /* Asegura que la imagen ocupe completamente el contenedor */
+    -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%); /* Aplica la máscara elíptica */
+    mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 70%); /* Aplica la máscara elíptica */
+  }
+
+  .skills,
+  .projects,
+  .footer {
+    opacity: 0; /* Establece la opacidad inicial en 0 */
+    animation: fadeIn 1s ease-in-out forwards; /* Aplica la animación fadeIn */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Establece la opacidad inicial en 0 al inicio de la animación */
+    }
+    to {
+      opacity: 1; /* Establece la opacidad final en 1 al final de la animación */
+    }
+  }
+  
